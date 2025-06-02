@@ -46,14 +46,14 @@ const DonationCard = ({
         </div>
         <CardTitle className="text-2xl font-bold">{title}</CardTitle>
         <CardDescription className="text-white/80">
-          <div className="flex items-center justify-center gap-2 mt-2">
+          <span className="flex items-center justify-center gap-2 mt-2">
             {originalPrice && (
               <span className="text-lg line-through opacity-60">
                 {originalPrice}₽
               </span>
             )}
             <span className="text-3xl font-bold">{price}₽</span>
-          </div>
+          </span>
         </CardDescription>
       </CardHeader>
 
